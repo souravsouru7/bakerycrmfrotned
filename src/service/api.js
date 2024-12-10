@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Use the environment variable from .env file, with a fallback
-const API_BASE_URL ='https://bakerycrm.shop/api';
+const API_BASE_URL ='https://bakerycrm.shop';
 
 const API = axios.create({
   baseURL: API_BASE_URL,
